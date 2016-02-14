@@ -1,0 +1,65 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@2.14.9
+3 info using node@v0.12.9
+4 verbose node symlink /usr/bin/node
+5 verbose readDependencies loading dependencies from /home/victor/Documentos/djando-angularjs/package.json
+6 verbose install where, deps [ '/home/victor/Documentos/djando-angularjs',
+6 verbose install   [ 'bower', 'gulp', 'gulp-ng-annotate', 'gulp-uglify' ] ]
+7 verbose install where, peers [ '/home/victor/Documentos/djando-angularjs', [] ]
+8 verbose installManyTop reading for lifecycle /home/victor/Documentos/djando-angularjs/package.json
+9 info preinstall thinkster_django_angular_boilerplate@1.0.0
+10 verbose installManyTop reading scoped package data from /home/victor/Documentos/djando-angularjs/node_modules/bower/package.json
+11 verbose installManyTop reading scoped package data from /home/victor/Documentos/djando-angularjs/node_modules/gulp/package.json
+12 verbose installManyTop reading scoped package data from /home/victor/Documentos/djando-angularjs/node_modules/gulp-ng-annotate/package.json
+13 verbose installManyTop reading scoped package data from /home/victor/Documentos/djando-angularjs/node_modules/gulp-uglify/package.json
+14 info package.json gulp-ng-annotate@0.3.6 license should be a valid SPDX license expression
+15 verbose readDependencies loading dependencies from /home/victor/Documentos/djando-angularjs/package.json
+16 verbose targetResolver reading package data from /home/victor/Documentos/djando-angularjs/node_modules/bower/package.json
+17 verbose targetResolver reading package data from /home/victor/Documentos/djando-angularjs/node_modules/gulp/package.json
+18 verbose targetResolver reading package data from /home/victor/Documentos/djando-angularjs/node_modules/gulp-ng-annotate/package.json
+19 verbose targetResolver reading package data from /home/victor/Documentos/djando-angularjs/node_modules/gulp-uglify/package.json
+20 verbose targetResolver reading package data from /home/victor/Documentos/djando-angularjs/node_modules/.bin/bower/package.json
+21 verbose targetResolver reading package data from /home/victor/Documentos/djando-angularjs/node_modules/.bin/gulp/package.json
+22 verbose already installed skipping bower@^1.3.12 /home/victor/Documentos/djando-angularjs
+23 verbose already installed skipping gulp@^3.8.9 /home/victor/Documentos/djando-angularjs
+24 verbose already installed skipping gulp-ng-annotate@^0.3.3 /home/victor/Documentos/djando-angularjs
+25 verbose already installed skipping gulp-uglify@^1.0.1 /home/victor/Documentos/djando-angularjs
+26 silly install resolved []
+27 info build /home/victor/Documentos/djando-angularjs
+28 info linkStuff thinkster_django_angular_boilerplate@1.0.0
+29 silly linkStuff thinkster_django_angular_boilerplate@1.0.0 has /home/victor/Documentos as its parent node_modules
+30 verbose linkBins thinkster_django_angular_boilerplate@1.0.0
+31 verbose linkMans thinkster_django_angular_boilerplate@1.0.0
+32 verbose rebuildBundles thinkster_django_angular_boilerplate@1.0.0
+33 verbose rebuildBundles [ '.bin', 'bower', 'gulp', 'gulp-ng-annotate', 'gulp-uglify' ]
+34 info install thinkster_django_angular_boilerplate@1.0.0
+35 info postinstall thinkster_django_angular_boilerplate@1.0.0
+36 verbose unsafe-perm in lifecycle true
+37 info thinkster_django_angular_boilerplate@1.0.0 Failed to exec postinstall script
+38 verbose stack Error: thinkster_django_angular_boilerplate@1.0.0 postinstall: `chmod +x ./scripts/postInstall.sh && ./scripts/postInstall.sh`
+38 verbose stack Exit status 1
+38 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/lib/utils/lifecycle.js:214:16)
+38 verbose stack     at EventEmitter.emit (events.js:110:17)
+38 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+38 verbose stack     at ChildProcess.emit (events.js:110:17)
+38 verbose stack     at maybeClose (child_process.js:1016:16)
+38 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1088:5)
+39 verbose pkgid thinkster_django_angular_boilerplate@1.0.0
+40 verbose cwd /home/victor/Documentos/djando-angularjs
+41 error Linux 3.16.0-4-686-pae
+42 error argv "/usr/bin/node" "/usr/bin/npm" "install"
+43 error node v0.12.9
+44 error npm  v2.14.9
+45 error code ELIFECYCLE
+46 error thinkster_django_angular_boilerplate@1.0.0 postinstall: `chmod +x ./scripts/postInstall.sh && ./scripts/postInstall.sh`
+46 error Exit status 1
+47 error Failed at the thinkster_django_angular_boilerplate@1.0.0 postinstall script 'chmod +x ./scripts/postInstall.sh && ./scripts/postInstall.sh'.
+47 error This is most likely a problem with the thinkster_django_angular_boilerplate package,
+47 error not with npm itself.
+47 error Tell the author that this fails on your system:
+47 error     chmod +x ./scripts/postInstall.sh && ./scripts/postInstall.sh
+47 error You can get their info via:
+47 error     npm owner ls thinkster_django_angular_boilerplate
+47 error There is likely additional logging output above.
+48 verbose exit [ 1, true ]
